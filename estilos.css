@@ -1,0 +1,37 @@
+:root{
+    --white: #FFFFFF;
+    --black:#000000;
+    --very-light-pink:#C7C7C7;
+    --text-input-field:#F7F7F7;
+    --hospital-green: #ACD982;
+}
+
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cabecera{
+    background: -webkit-linear-gradient(right ,red , blue);
+    width: 100%;
+    height: 20%;
+}
+
+.titulo{
+    background:rgb(0, 255, 123) ;
+    width: 100%;
+    margin: 20px 10px;
+}
+
+.titulo .titulo-principal{
+    text-align: center;
+    font-size: 40px;
+}
+.titulo .subtitulo-principal{
+    text-align: center;
+    margin-top: 20px
+}
