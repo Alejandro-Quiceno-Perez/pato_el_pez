@@ -10,7 +10,15 @@ html {
 
 body {
     background: var(--gris);
-    border: 1px solid black;
-    width: 100vw;
-    height: 100vh;
+    font-size: 3rem;
+    font-family: sharoe;
+}
+a {
+    color: var(--blanco);
+}
+.nombre-banda{
+    
+    font-size: 15rem;
+    font-weight: lighter;
+    color: var(--blanco);
 }
