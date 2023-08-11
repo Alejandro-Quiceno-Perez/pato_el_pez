@@ -9,16 +9,12 @@ html {
 }
 
 body {
-    background: var(--gris);
+    background: var(--negro);
     font-size: 3rem;
-    font-family: sharoe;
-}
-a {
-    color: var(--blanco);
-}
-.nombre-banda{
     
-    font-size: 15rem;
-    font-weight: lighter;
-    color: var(--blanco);
 }
+
+
+
+
+
