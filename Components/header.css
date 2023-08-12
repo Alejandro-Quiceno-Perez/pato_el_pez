@@ -1,0 +1,63 @@
+header {
+    width: 100%;
+}
+
+.container-fluid {
+    display: flex;
+    justify-content: center;
+}
+
+.container-nombre {
+    text-align: center;
+    justify-content: end;
+    display: flex;
+    width: 70%;
+}
+
+
+.titulo-banda{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nombre-banda {
+    text-align: center;
+    font-family: sharoe;
+    font-size: 8rem;
+    color: var(--rojo);
+}
+
+
+
+/* ----------- MENU DE NAVEGACION ----------*/
+
+.container-header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-header {
+    display: flex;
+    justify-content: flex-end;
+    width: 80%;
+    list-style: none;
+}
+
+.menu-lista {
+    margin: 3rem ;
+}
+
+a {
+    text-decoration: none;
+    color: var(--gris);
+}
+
+
+
+/* FOOTER */
+
+
+

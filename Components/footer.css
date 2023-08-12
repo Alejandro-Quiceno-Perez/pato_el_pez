@@ -1,0 +1,32 @@
+footer {
+    color: var(--gris);
+    padding: 5rem;
+    width: 100%;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.container-redes a {
+    margin: 0 1rem;
+}
+
+.spotify {
+    color: #1ED760;
+}
+.youtube {
+    color: #C8232C;
+}
+.soundcloud {
+    color: #FF7000;
+}
+.facebook{
+    color: #3B5998;
+}
+.instagram{
+    color: #DD2A7B;
+}
+.tiktok {
+    color: var(--blanco);
+}

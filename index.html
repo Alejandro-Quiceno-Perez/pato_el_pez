@@ -5,11 +5,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="./Components/header.css">
+    <link rel="stylesheet" href="./Components/sections.css">
+    <link rel="stylesheet" href="./Components/footer.css">
+    <link rel="stylesheet" href="./Components/slider.css">
+    <link rel="stylesheet" href="./Components/music.css">
+    <script src="./Components/pack-animations.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link rel="icon" href="img/logo_blanco.ico">
-    <link rel="stylesheet" href="estilos.css">
-    <link rel="stylesheet" href="/Components/header.css">
-
+    
     <title>PATO EL PEZ</title>
 
     <style>
@@ -22,7 +27,7 @@
 
         @font-face {
             font-family: sharoe;
-            src: url(/font/Sharoe.ttf);
+            src: url(./font/Sharoe.ttf);
         }
     </style>
 </head>
@@ -41,16 +46,16 @@
             <section class="container-header">
                 <ul class="nav-header">
                     <li class="menu-lista">
-                        <a href="#">Inicio</a>
+                        <a href="#container-fluid">Inicio</a>
                     </li>
                     <li class="menu-lista">
-                        <a href="#">Banda</a>
+                        <a href="#banda">Banda</a>
                     </li>
                     <li class="menu-lista">
-                        <a href="#">Música</a>
+                        <a href="#musica">Música</a>
                     </li>
                     <li class="menu-lista">
-                        <a href="#">Conciertos</a>
+                        <a href="#eventos">Eventos</a>
                     </li>
                     <li class="menu-lista">
                         <a href="#">Fotos</a>
@@ -59,29 +64,156 @@
             </section>
         </div>
     </header>
-    <!-- <section class="seccion1">
-        <article>
+    <section class="seccion1">
+        <article class="articulo-seccion1">
             <div class="titulo-principal">
-                <h3>Cuando te fuiste querias que fuera por vos y no te diste cuenta que ya todo eso cambio</h3>
+                <h1>Cuando te fuiste querías que fuera por vos y no te diste cuenta que ya todo eso cambio</h1>
                 <div class="subtitulo">
                     <p>Dejarte ir</p>
                 </div>
             </div>
         </article>
-    </section> -->
+    </section>
+    <section class="seccion2" id="banda">
+        <article class="articulo-seccion2">
+            <div class="subtitulo-banda">
+                <h2>Quienes somos</h2>
+                <div class="imagen-contenido">
+                    <img src="./img/nosotros.jpg" alt="Esta fue la primera foto como banda">
+                </div>
+            </div>
+
+            <div class="descipcion-banda">
+                <p class="informacion-general">
+                    Pato el Pez es una banda de punk rock del municipio de Itagüí, nacida en enero de 2020, unos
+                    meses antes de la pandemia (Covid-19). <br>
+                    La banda ha venido creando su propio sonido, con letras de la vida cotidiana. Teniendo una
+                    influencia en bandas locales como lo son Tres de Corazón y Pop Corn. <br>
+                    Por otro lado, se busca un sonido californiano teniendo como referencia bandas como
+                    Blink-182 o Sum 41.
+                </p>
+
+                <!-- SLIDER -->
+
+                <div class="descripcion-integrantes">
+                    <div class="slider">
+                        <div class="slider__container container">
+
+                            <img src="./Components/leftArrow.svg" class="slider__arrow" id="before">
+
+                            <section class="slider__body slider__body--show" data-id="1">
+                                <div class="slider__text">
+                                    <h2 class="subtitle">Camilo Grisales</h2>
+                                    <p class="slider__review">
+                                        (El Loko). Guitarrista líder, vocalista de la banda y fundador, influenciado por
+                                        el punk
+                                        rock nacional y el punk rock californiano. Decidí dedícame a la música
+                                        aprendiendo primero a tocar la guitarra desde muy niño y después la batería...
+                                        después de muchos años de tener la idea y el sueño de hacer una banda de punk
+                                        rock di con las personas ideales para hacerlo.
+
+                                    </p>
+                                </div>
+                                <figure class="slider__picture">
+                                    <img src="./img/cada-uno/loco1.JPG" class="slider__img">
+                                </figure>
+                            </section>
+                            <section class="slider__body" data-id="2">
+                                <div class="slider__text">
+                                    <h2 class="subtitle">Jaiver Restrepo</h2>
+                                    <p class="slider__review">
+                                        (El Jai). En el bajo con todo el sabor del punk rock, llega en el tercer ensayo
+                                        de haberse
+                                        creado la banda. Es diseñador grafico y el administrador de las redes sociales
+                                        de la banda.
+                                        Además, es guitarrista en diferentes agrupaciones musicales combinando
+                                        influencias de Ska, Punk y hasta metal, para darle una gran variedad a los bajos
+                                        que se componen en las diferentes canciones.
+
+                                    </p>
+                                </div>
+                                <figure class="slider__picture">
+                                    <img src="./img/cada-uno/jaiver1.JPG" class="slider__img">
+                                </figure>
+                            </section>
+                            <section class="slider__body" data-id="3">
+                                <div class="slider__text">
+                                    <h2 class="subtitle">Kenny Garzón</h2>
+                                    <p class="slider__review">
+                                        (Khaos). Desde pequeño siempre me ha gustado el metal, con mucha influencia en
+                                        el grupo californiano Metallica. Desde hace ya 10 años tocó la guitarra, en el
+                                        trascurso aprendí a tocar batería y piano, ahora hago parte de Pato el Pez
+                                        ejecutando la guitarra rítmica y los coros.
+                                    </p>
+                                </div>
+                                <figure class="slider__picture">
+                                    <img src="./img/cada-uno/khaos1.JPG" class="slider__img">
+                                </figure>
+                            </section>
+                            <section class="slider__body" data-id="4">
+                                <div class="slider__text">
+                                    <h2 class="subtitle">Alejandro Quiceno</h2>
+                                    <p class="slider__review">
+                                        Baterista, corista de la banda y fundador, con influencias en el pop punk, neo
+                                        punk, metal sinfónico y músicas tradicionales colombianas. Su carrera musical
+                                        inicia cuando tenia aproximadamente 6 años en las bandas de marcha musico
+                                        marciales ejecutando el redoblante. Musico profesional con aires colombianos
+                                        enfatizando en el punk rock.
+                                        Diseñador de la pagina web de Pato el Pez.
+                                    </p>
+                                </div>
+                                <figure class="slider__picture">
+                                    <img src="./img/cada-uno/alejo1.JPG" class="slider__img">
+                                </figure>
+                            </section>
+
+                            <img src="./Components/rightArrow.svg" class="slider__arrow" id="next">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </section>
+
+    <section class="seccion3" id="eventos">
+        <article class="articulo-eventos">
+            <h1 class="titulo-eventos">Estos son algunos eventos.</h1>
+            <div class="container-eventos">
+
+                <img src="./img/eventos/agostoke.jpg" class="img-eventos" alt="altavoz">
+                <img src="./img/eventos/c7.jpg" class="img-eventos" alt="c7">
+                <img src="./img/eventos/limo.jpg" class="img-eventos" alt="limo">
+                <img src="./img/eventos/pandoraFest.jpg" class="img-eventos" alt="pandora fest"
+                    style="border: 1px solid white;">
+                <img src="./img/eventos/punkDemia.jpg" class="img-eventos" alt="punkDemia">
+                <img src="./img/eventos/punkpleaños.jpg" class="img-eventos" alt="punkpleaños">
+                <img src="./img/eventos/shama.jpg" class="img-eventos" alt="shama">
+                <img src="./img/eventos/boulevard.png" class="img-eventos" alt="boulevard">
+
+            </div>
+        </article>
+    </section>
+
     <footer>
         <div class="copy-footer">
             <p>&copy; 2023 Pato el pez punk rock</p>
         </div>
         <div class="container-redes">
-            <a href="#spotify" class="spotify"><i class="bi bi-spotify"></i></a>
-            <a href="#YouTube" class="youtube"><i class="bi bi-youtube"></i></a>
-            <a href="#Soundcloud" class="soundcloud"><i class="bi bi-music-note-beamed"></i></a>
-            <a href="#Facebook" class="facebook"><i class="bi bi-facebook"></i></a>
-            <a href="#Instagram" class="instagram"><i class="bi bi-instagram"></i></a>
-            <a href="#Tik Tok" class="tiktok"><i class="bi bi-tiktok"></i></a>
+            <a href="https://open.spotify.com/artist/4pbnupXCtNilC05RqeFrCO?si=dNltZdqiSnahmDPsZ0bMhA"
+                class="spotify"><i class="bi bi-spotify"></i></a>
+            <a href="https://www.youtube.com/@patoelpezpunkrock4696" class="youtube"><i class="bi bi-youtube"></i></a>
+            <a href="https://soundcloud.com/pato-el-pez-punk-rock" class="soundcloud"><i
+                    class="bi bi-music-note-beamed"></i></a>
+            <a href="https://www.facebook.com/patoelpezpunkrock" class="facebook"><i class="bi bi-facebook"></i></a>
+            <a href="https://www.instagram.com/pato_el_pez_punkrock/" class="instagram"><i
+                    class="bi bi-instagram"></i></a>
+            <a href="https://www.tiktok.com/@patoelpezpunkrock?is_from_webapp=1&sender_device=pc" class="tiktok"><i
+                    class="bi bi-tiktok"></i></a>
         </div>
     </footer>
+    <script src="./Components/slider.js"></script>
+    <script src="./Components/music.js"></script>
+    <script src="./Components/animatios.js"></script>
 </body>
 
 </html>
