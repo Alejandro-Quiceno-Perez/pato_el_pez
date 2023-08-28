@@ -39,14 +39,13 @@ footer {
     right: 4rem;
     width: 4rem;
     height: 4rem;
-    color: #1ED760;
     z-index: -1;
 }
 
 .go-top-button {
     width: 0rem;
     height: 0rem;
-    background: var(--gris);
+    background: var(--rojo);
     border-radius: 50%;
     cursor: pointer;
     top: 50%;
