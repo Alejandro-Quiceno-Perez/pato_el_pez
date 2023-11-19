@@ -32,19 +32,19 @@
   object-fit: cover;
   border-radius: 50%;
   box-shadow: 1px 1px 10px var(--blanco);
-  /* animation: rotation 8s infinite linear;
-  transform-origin: center; */
 }
 
 .name {
   color: var(--blanco);
-  font-size: 4rem;
+  font-size: var(--titulo-cancion);
   text-transform: capitalize;
 }
 
 .artist {
   color: var(--blanco);
-  font-size: 2.8rem;
+  font-family: sharoe;
+  letter-spacing: .3rem;
+  font-size: var(--enlaces);
   text-transform: capitalize;
   padding: 10px 0 20px 0;
 }
@@ -59,7 +59,7 @@
 
 .song-timer span {
   font-size: 2rem;
-  color: #7c7d80;
+  color: var(--gris);
   user-select: none;
   font-weight: 800;
 }
@@ -69,7 +69,7 @@
   width: 100%;
   margin-top: 1.5rem;
   border-radius: 50px;
-  background-color: var(--blanco);
+  background-color: var(--gris);
   /* box-shadow: 1px 1px 10px var(--gris); */
   cursor: pointer;
 }
@@ -132,9 +132,6 @@
     /* box-shadow: 1px 1px 10px var(--rojo); */
 }
 
-/* .btnC:active {
-    box-shadow: 1px 1px 10px #e1530a;
-} */
 
 .controls i {
     font-size: 4rem;

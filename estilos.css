@@ -18,8 +18,14 @@ body {
 :root {
     --blanco: #FFFFFF;
     --negro: #000000;
-    --gris: #313131;
+    --gris: #3f3f3f;
     --rojo: #FC2A00;
+    --titulo-h1:8rem;
+    --titulo-h2: 5.5rem;
+    --titulo-principal: 7rem;
+    --titulo-cancion: 4.5rem;
+    --enlaces: 3.5rem;
+    --parrafos: 2.3rem;
 }
 
 @font-face {
