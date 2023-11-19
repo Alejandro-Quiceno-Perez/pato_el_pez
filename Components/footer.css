@@ -45,14 +45,18 @@ footer {
 .go-top-button {
     width: 0rem;
     height: 0rem;
-    background: var(--rojo);
+    background: var(--gris);
     border-radius: 50%;
     cursor: pointer;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
     z-index: -1;
+    transition: .2s;
+}
 
+.go-top-button:hover{
+    box-shadow: 0px 0px 5px var(--blanco);
 }
 
 .go-top-button i {

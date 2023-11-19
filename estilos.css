@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    scroll-behavior:smooth;
 }
 
 html {
@@ -12,6 +13,18 @@ body {
     background: var(--negro);
     font-size: 3rem;
     
+}
+
+:root {
+    --blanco: #FFFFFF;
+    --negro: #000000;
+    --gris: #313131;
+    --rojo: #FC2A00;
+}
+
+@font-face {
+    font-family: sharoe;
+    src: url(./font/Sharoe.ttf);
 }
 
 
