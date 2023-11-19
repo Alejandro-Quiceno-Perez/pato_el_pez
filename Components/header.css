@@ -25,7 +25,8 @@ header {
 .nombre-banda {
     text-align: center;
     font-family: sharoe;
-    font-size: 8rem;
+    letter-spacing: 0.3rem;
+    font-size: var(--titulo-h1);
     color: var(--rojo);
 }
 
@@ -47,12 +48,21 @@ header {
 }
 
 .menu-lista {
-    margin: 3rem ;
+    margin: 2rem ;
 }
 
-a {
+.menu-lista a {
     text-decoration: none;
     color: var(--gris);
+    font-size: var(--enlaces);
+    letter-spacing: .2rem;
+    font-family: sharoe;
+    transition: .2s;
+}
+
+.menu-lista a:hover {
+    color: var(--blanco);
+    border-bottom: 1.8px solid var(--rojo);
 }
 
 
